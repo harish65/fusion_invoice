@@ -1,0 +1,2 @@
+<script src='{{ asset('assets/plugins/bootstrap-toggle/bootstrap-toggle.min.js?v='.config('fi.version')) }}'></script>
+<link href="{{ asset('assets/plugins/bootstrap-toggle/bootstrap-toggle.min.css?v='.config('fi.version')) }}" rel="stylesheet" type="text/css"/>

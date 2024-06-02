@@ -1,0 +1,553 @@
+.select2-selection__rendered span:nth-child(2) {
+    color: #73c4ee;
+    padding-left: 25px;
+}
+
+.select2-results__option span {
+    color: #73c4ee;
+    padding-left: 25px;
+}
+
+.task-section-list-table > li .text {
+    font-weight: 400 !important;
+    margin-right: 5px;
+}
+
+.small-box .icon > i.ion {
+    font-size: 42px !important;
+}
+
+.badge-draft {
+    background-color: #999999;
+    color: #FFFFFF !important;
+}
+
+.badge-default {
+    background-color: #d2d6de;
+    color: #444;
+}
+
+.badge-canceled {
+    background-color: #7d0f11;
+    color: floralwhite;
+}
+
+.badge-unpaid {
+    background-color: #6c347a !important;
+    color: #FFFFFF !important;
+}
+
+.badge-emailed {
+    background-color: #97d4b3 !important;
+}
+
+.badge-viewed {
+    color: #3f4141;
+    background-color: #f795c7 !important;
+}
+
+.badge-parent-account {
+    color: #FFFFFF !important;
+    background-color: #882588;
+}
+
+.badge-third-party-bill-payer {
+    color: #FFFFFF !important;
+    background-color: #422488;
+}
+
+.badge-approved {
+    background-color: #468847;
+    color: #FFFFFF !important;
+}
+
+.badge-sent {
+    background-color: #3A87AD;
+    color: #FFFFFF !important;
+}
+
+.badge-rejected, .badge-overdue {
+    background-color: #B94A48;
+    color: #FFFFFF !important;
+}
+
+.badge-paid, .badge-applied {
+    background-color: #28a745;
+    color: #FFFFFF !important;
+}
+
+.badge-mailed {
+    background-color: #ffa144 !important;
+}
+
+.dashboard-widget-card {
+    background-color: #FAF9F8 !important;
+    box-shadow: #FAF9F8;
+}
+
+.card-title-credit-memo {
+    color: #FF1492;
+}
+
+.title-credit-memo {
+    color: #FF1492;
+}
+
+.client-inactive-watermark {
+    position: fixed;
+    color: #b22222;
+    font-size: 3em;
+    width: auto;
+    top: 50%;
+    text-align: center;
+    z-index: 0;
+    transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    font-weight: 700;
+    border: 0.5rem solid #b22222;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    font-family: 'Courier';
+    -webkit-mask-image: url('dist/img/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+    -webkit-mask-position: 13rem 6rem;
+    z-index: 99999;
+    background: #e7e7e7;
+    left: 40%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 767px) {
+    .client-inactive-watermark {
+        left: 25% !important;
+    }
+}
+
+.text-sm .select2-container--default .select2-selection--multiple .select2-selection__rendered, select.form-control-sm ~ .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 0px 0px 0px 5px !important;
+    margin-top: -0.1rem;
+}
+
+select.form-control-sm ~ .select2-container--default {
+    font-size: 13px;
+}
+
+.select2-selection__clear {
+    margin-left: 6px !important;
+}
+
+.dark-mode .select2-selection {
+    background-color: #343a40 !important;
+    border-color: #6c757d !important;
+}
+
+.dark-mode .select2-selection--single .select2-selection__rendered {
+    color: #fff !important;
+}
+
+.dark-mode .dropdown-item {
+    color: #fff !important;
+}
+
+.currency_code-style {
+    background: #fff8dc;
+    color: #000000;
+}
+
+.callout-pink-cm {
+    border-left: 5px solid #e9ecef !important;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left-color: #e83e8c !important;
+}
+
+.cm-pink {
+    color: #e83e8c !important;
+}
+
+.jc-left {
+    justify-content: left !important;
+}
+
+.jc-right {
+    justify-content: right !important;
+}
+
+.jc-center {
+    justify-content: center !important;
+}
+
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-300 {
+    font-weight: 300 !important;
+}
+
+.fw-450 {
+    font-weight: 650 !important;
+}
+
+.w-100 {
+    width: 100 !important;
+}
+
+td.col-4.copy-to-clipboard-hover:not(.description):hover .copy-icon-btn {
+    display: block !important;
+}
+
+td.col-4.copy-to-clipboard-hover:hover span.select2.select2-container.select2-container--default.select2-container--below.select2-container--focus {
+    display: inline-block !important;
+}
+
+td.col-4.copy-to-clipboard-hover:hover span.select2.select2-container.select2-container--default {
+    display: inline-block !important;
+}
+
+.dark-mode .open-ar-current {
+    color: rgb(43, 42, 42) !important;
+}
+
+.dark-mode .open-ar-30 {
+    color: rgb(43, 42, 42) !important;
+}
+
+.dark-mode .open-ar-60 {
+    color: rgb(43, 42, 42) !important;
+}
+
+.dark-mode .open-ar-90 {
+    color: rgb(43, 42, 42) !important;
+}
+
+.dark-mode .open-ar-91 {
+    color: rgb(43, 42, 42) !important;
+}
+
+.dark-mode .open-ar-tot {
+    color: rgb(43, 42, 42) !important;
+}
+
+.open-ar-current {
+    background-color: #ededed;
+}
+
+.open-ar-30 {
+    background-color: #e4eddc;
+}
+
+.open-ar-60 {
+    background-color: #f0efd3;
+}
+
+.open-ar-90 {
+    background-color: #ead6b7;
+}
+
+.open-ar-91 {
+    background-color: #e5bdbd;
+}
+
+.open-ar-tot {
+    background-color: #dce3ed;
+}
+
+.open-ar-card-label-dark {
+    color: #474745;
+    font-size: large;
+}
+
+.fi-form-area {
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+    margin-left: 0 !important;
+}
+
+.alt-fi-form-area-color {
+    background-color: rgb(249, 249, 249) !important;
+}
+
+.dark-mode .alt-fi-form-area-color {
+    background-color: rgb(53, 53, 53) !important;
+}
+
+/* ABS - IT Company Fields */
+.abs-it-company-bg-color {
+    background-color: #e6f1ff !important;
+}
+
+.kpi-card-small-box-footer {
+    color: #fdfdfd !important;
+}
+
+.kpi-card-draft-invoices {
+    background: #fec71e;
+    color: #252525;
+}
+
+.kpi-card-sent-invoices {
+    background: #07a9c4;
+    color: #252525;
+}
+
+.kpi-card-overdue-invoices {
+    background: #dc3445;
+    color: #252525;
+}
+
+.kpi-card-payments-collected {
+    background: #08a82b;
+    color: #252525;
+}
+
+.kpi-card-draft-quotes {
+    background: #7a48d2;
+    color: #404040;
+}
+
+.kpi-card-sent-quotes {
+    background: #25be7a;
+    color: #404040;
+}
+
+.kpi-card-rejected-quotes {
+    background: #ff8b2b;
+    color: #404040;
+}
+
+.kpi-card-approved-quotes {
+    background: #0a81fd;
+    color: #404040;
+}
+
+.pagination-nav-css > nav > .pagination {
+    flex-flow: wrap !important;
+    float: right !important;
+}
+
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.task-overdue {
+    color: #c4757d !important;
+}
+
+.task-current {
+    color: #5190d1 !important;
+}
+
+.task-future {
+    color: #787b7e !important;
+}
+
+.va-t {
+    vertical-align: top !important;
+}
+
+.form-subtext {
+    font-size: 80%;
+    margin-top: 0;
+}
+
+.document-options-label {
+    margin-bottom: 2px !important;
+}
+
+.document-options-input-group {
+    padding-bottom: .6rem !important;
+}
+
+.timer-today {
+    color: #168be8 !important;
+}
+
+.timer-tomorrow {
+    color: #c3a447 !important;
+}
+
+.timer-yesterday {
+    color: #82bd7b !important;
+}
+
+.timer-in-the-past {
+    color: #738699 !important;
+}
+
+.timer-in-the-future {
+    color: #5eb3a9 !important;
+}
+
+/* Specific column widths to avoid Safari not rendering invoice, RI and quote line items properly. */
+.cw-8 {
+    width: 8.3%;
+}
+
+.cw-16 {
+    width: 16.6%;
+}
+
+.cw-25 {
+    width: 25%;
+}
+
+.cw-33 {
+    width: 33%;
+}
+
+.cw-40 {
+    width: 40%;
+}
+
+.cw-42 {
+    width: 42%;
+}
+
+.cw-50 {
+    width: 50%;
+}
+
+.addable-navitem {
+    display: inline-flex;
+}
+
+.addable-navitem:hover > .nav-item-plus-icon {
+    display: inherit;
+}
+
+.nav-item-hover {
+    position: relative;
+}
+
+.nav-item-plus-icon {
+    margin-left: -1.4em !important;
+    display: none;
+    position: absolute !important;
+    right: 10px !important;
+    top: 8px !important;
+    z-index: 99999999 !important;
+}
+
+.textWhite {
+    color: white !important;
+}
+
+.mt-2 .link1 {
+    width: 82% !important;
+    float: left;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.mt-2 .link2 {
+    width: 18% !important;
+    text-align: center;
+    border-radius: 0px 3px 3px 0px;
+    float: right;
+}
+
+.mt-2 .link2.active {
+    width: 18% !important;
+    background-color: #007bff;
+    display: flex;
+    padding: 13px 15px;
+    min-height: 40px;
+}
+
+.nav-sidebar > .nav-item {
+    float: left;
+    width: 100%;
+}
+
+.mt-2 .link2 {
+    display: none;
+}
+
+.nav-sidebar > .nav-item:hover .link2 {
+    display: flex!important;
+    background: transparent !important;
+    padding: 13px 15px;
+}
+
+.nav-sidebar > .nav-item:hover {
+    background: #555;
+    border-radius: 3px;
+}
+
+.mt-2 .link1:hover {
+    background: #555;
+}
+
+.mt-2 .link1.active {
+    border-radius: 0px;
+    box-shadow: none !important;
+    border-radius: 3px 0px 0px 3px;
+}
+
+[class*=sidebar-dark-] .nav-sidebar > .nav-item.menu-open > .nav-link, [class*=sidebar-dark-] .nav-sidebar > .nav-item:hover > .nav-link, [class*=sidebar-dark-] .nav-sidebar > .nav-item > .nav-link:focus {
+    background-color: transparent;
+}
+
+.nav-item .link1, .nav-item .link2{}
+.dark-mode .sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active, .dark-mode .sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #007bff !important;
+}
+
+.dark-mode .mt-2 ul li.nav-item:hover .link2.active {
+    background-color: #007bff !important;
+}
+
+.mt-2 .nav-sidebar .nav-item > .nav-link {
+    margin-bottom: 0px;
+}
+
+.client-table-type-indicator-column {
+    width: 5px;
+}
+
+.light-mode #collapsed-card-tasks .card-header .card-tools .btn-tool-custom:hover {
+    color: #FFFFFF;
+}
+
+.alertify-notifier.ajs-center {
+    z-index: 99999 !important;
+}
+
+.preset-task-items-count {
+    padding: 2px 4px;
+    position: absolute;
+}
+
+@media screen and (max-width: 1615px) {
+    .max-content-custom {
+        width: max-content !important;
+    }
+}
+
+.sidebar-collapse .link2.active {
+    display: none;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand).sidebar-focused, .sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .mt-2 .link2.active
+{
+    display: block;
+    display: flex;
+}
+
+.sidebar-collapse .link1.active {
+    padding-right: 42px;
+    border-radius: 5px;
+}
+
+.sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand).sidebar-focused, .sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .mt-2 .link1.active
+{
+    border-radius: 3px 0px 0px 3px;
+}
+.table.dataTable.table-sm > thead > tr > th{
+    padding-right: 27px;
+}

@@ -1,0 +1,19 @@
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+image: php:7.2
+
+pipelines:
+  branches:
+    dev:
+      - step:
+          name: Development Build
+          cache:
+            - composer
+          script:
+            - apt-get update && apt-get install unzip -y
+            - apt-get install openssh-client -y
+            - ssh root@137.184.194.180 'bash -s' < execute.sh
+          only:
+            refs:
+              - refs/heads/dev/2023-2.21

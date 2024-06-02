@@ -1,0 +1,87 @@
+{
+  "name": "laravel/laravel",
+  "description": "The Laravel Framework.",
+  "keywords": [
+    "framework",
+    "laravel"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "daftspunk/laravel-config-writer": "^1.2",
+    "doctrine/dbal": "^2.6",
+    "dompdf/dompdf": "^1.2",
+    "fideloper/proxy": "~4.0",
+    "fruitcake/laravel-cors": "^3.0",
+    "guzzlehttp/guzzle": "^7.0.1",
+    "ifsnop/mysqldump-php": "^2.9",
+    "illuminate/support": "^9.32",
+    "intervention/image": "^2.5",
+    "jurosh/pdf-merge": "^2.1",
+    "knplabs/knp-snappy": "^1.2",
+    "laravel/framework": "9.*",
+    "laravel/sanctum": "^2.14",
+    "laravel/tinker": "^2.0",
+    "laravel/ui": "^3.0",
+    "laravelcollective/html": "^6.1",
+    "mews/captcha": "^3.2",
+    "milon/barcode": "^9.0",
+    "mollie/mollie-api-php": "^2.0",
+    "mpdf/mpdf": "^8.1",
+    "nunomaduro/collision": "^6.3",
+    "paragonie/random_compat": "^9.99",
+    "paypal/rest-api-sdk-php": "*",
+    "rap2hpoutre/laravel-log-viewer": "^2.3",
+    "s-ichikawa/laravel-sendgrid-driver": "^4.0",
+    "sonata-project/exporter": "^2.3",
+    "stripe/stripe-php": "^7.46",
+    "symfony/expression-language": "^5.3"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.20",
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "classmap": [
+      "database/seeds",
+      "database/factories"
+    ],
+    "psr-4": {
+      "FI\\": "app/",
+      "Addons\\": "custom/addons/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": [
+        "request"
+      ]
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
+    "post-create-project-cmd": [
+      "@php artisan key:generate"
+    ],
+    "post-autoload-dump": [
+      "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+      "@php artisan package:discover"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

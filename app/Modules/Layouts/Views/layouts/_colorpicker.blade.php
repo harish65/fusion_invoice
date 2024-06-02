@@ -1,0 +1,2 @@
+<link href="{{ asset('assets/plugins/colorpicker/bootstrap-colorpicker.min.css?v='.config('fi.version')) }}" rel="stylesheet" type="text/css"/>
+<script src='{{ asset('assets/plugins/colorpicker/bootstrap-colorpicker.min.js?v='.config('fi.version')) }}'></script>

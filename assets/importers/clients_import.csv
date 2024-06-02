@@ -1,0 +1,5 @@
+type,name,address,address2,city,state,postal_code,country,phone,fax,mobile,email,web
+customer,"Alfred and Sons Construction","127 W. Main St.",,Rockford,IL,61108,USA,815.555.1212,,,alf@aandsconst.org,www.aandsconst.org
+lead,"Northland Tool and Die","N1999 Highway 20",Lot B,Marengo,IL,61112,USA,815.555.1213,,,Burt@northlandtd.org,northlandtdt.org
+
+

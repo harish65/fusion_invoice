@@ -1,0 +1,3 @@
+date,client_name,invoice_number,due_date,summary,terms_and_conditions,footer
+2022-10-13,"Party Works Ltd",INV0520,2022-11-12,"imported invoice","Net 30 Days","Thanks for your business!"
+2022-10-15,"Classy Cows Inc",INV0591,2022-11-14,"imported invoice","Net 15 Days","Thanks for your business!"

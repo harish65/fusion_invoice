@@ -1,0 +1,35 @@
+.drag-area {
+    border: 2px dashed #999999;
+    height: 240px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag-area.active {
+    border: 2px solid #fff;
+}
+
+.drag-area .icon {
+    font-size: 64px;
+    color: #999999;
+}
+
+.drag-area header {
+    font-size: 21px;
+    font-weight: 500;
+    color: #999999;
+}
+
+.drag-area span {
+    font-size: 23px;
+    font-weight: 500;
+    color: #999999;
+    margin: 10px 0 10px 0;
+}
+
+#btn-file-upload {
+    margin-bottom: 15px;
+}

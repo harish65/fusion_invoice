@@ -1,0 +1,1 @@
+<script src='{{ asset('assets/plugins/datepicker/bootstrap-datepicker.js?v='.config('fi.version')) }}'></script>

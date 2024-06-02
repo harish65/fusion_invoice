@@ -1,0 +1,1 @@
+<script src="{{ asset('assets/plugins/chart.js/Chart.min.js?v='.config('fi.version')) }}"></script>

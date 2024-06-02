@@ -1,0 +1,4 @@
+invoice_number,product,description,quantity,price,tax_rate_id,tax_rate1
+INV0520,"16 Inch Hub Caps","Chrome 16 Inch Hub Caps for Jeep",4,122.50,,
+INV0520,"Lug Nuts","Anodized Lug Nuts 5 per pkg",4.00,12.22,,
+INV0591,"Axle Grease","32 Oz Tub of Axle Grease",1.00,29.00,,

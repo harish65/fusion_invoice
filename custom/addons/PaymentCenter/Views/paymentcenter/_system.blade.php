@@ -1,0 +1,1 @@
+<li><a class="dropdown-item" href="{{ route('paymentCenter.users.index') }}"><i class="fas fa-headset pr-2"></i>{{ trans('fi.payctr_users') }}</a></li>

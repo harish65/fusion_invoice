@@ -1,0 +1,4 @@
+expense_date,description,amount,tax,vendor_name,category_name,client_name,company_profile
+2023-01-11,Internet service,110.00,0.00,StarLink,Services,,
+2022-12-11,Internet service,110.00,0.00,StarLink,Services,,
+2022-12-05,Water bill,40.27,0.00,Marengo Water and power,Utilities,,
